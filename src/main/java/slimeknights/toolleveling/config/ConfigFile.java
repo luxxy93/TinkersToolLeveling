@@ -74,7 +74,7 @@ public class ConfigFile extends AbstractConfigFile {
     public int newToolMinModifiers = 3;
 
     @Setting(comment = "Maximum achievable levels. If set to 0 or lower there is no upper limit")
-    public int maximumLevels = -1;
+    public int maximumLevels = -0;
   }
 
   @ConfigSerializable
